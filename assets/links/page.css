@@ -1,3 +1,7 @@
+  /* Example: page accent demo */
+:root { --brand-secondary: #334155; }
+main h1 { color: var(--brand-secondary); }
+  
   /* ── Links block (scoped) ───────────────────────────────────────────── */
    .c-links{ max-width: 900px; margin-inline: auto; }
    .c-links__head{
